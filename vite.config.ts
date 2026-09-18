@@ -4,7 +4,7 @@ import { defineConfig } from 'vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
-  base: '/fitness/',
+  base: '/Fitness/',
   plugins: [
     react(),
     tailwindcss(),
@@ -18,8 +18,8 @@ export default defineConfig({
         theme_color: '#16171d',
         background_color: '#16171d',
         display: 'standalone',
-        start_url: '/fitness/',
-        scope: '/fitness/',
+        start_url: '/Fitness/',
+        scope: '/Fitness/',
         icons: [
           { src: 'favicon.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'any maskable' },
         ],
